@@ -1,0 +1,8 @@
+def remove(st):
+    g = []
+    words = st.split(' ')
+    for i in words:
+        while i.endswith('!'):
+            i = i[:-1]
+        g.append(i)
+    return ' '.join(g)
