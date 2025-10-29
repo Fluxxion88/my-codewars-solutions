@@ -1,0 +1,12 @@
+def get_grade(s1, s2, s3):
+    g = (s1 + s2 + s3) / 3
+    if 90 <= g <= 100:
+        return 'A'
+    elif 80 <= g < 90:
+        return 'B'
+    elif 70 <= g < 80:
+        return 'C'
+    elif 60 <= g < 70:
+        return 'D'
+    elif g < 60:
+        return 'F'
