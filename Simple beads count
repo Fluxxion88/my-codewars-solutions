@@ -1,0 +1,7 @@
+def count_red_beads(n):
+    g = 0
+    if n < 2:
+        return 0  
+    for i in range(n):
+        g += 2
+    return g - 2
