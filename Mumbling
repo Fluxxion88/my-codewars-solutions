@@ -1,0 +1,7 @@
+def accum(st):
+    g = 1
+    f = []
+    for i in st:
+        f.append((i * g).capitalize())
+        g += 1
+    return "-".join(f)
