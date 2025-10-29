@@ -1,0 +1,9 @@
+def persistence(n):
+    steps = 0
+    while n > 9:
+        prod = 1
+        for i in str(n):
+            prod *= int(i)
+        n = prod
+        steps += 1
+    return steps
